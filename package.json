@@ -7,6 +7,9 @@
     "type": "git",
     "url": "https://github.com/ypear/database"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "link-local": "npm link ../currency ../timing ../crdt ../events" 
   },
