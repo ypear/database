@@ -1,0 +1,35 @@
+{
+  "name": "@ypear/database",
+  "version": "0.0.1",
+  "description": "Self protecting multi-writer crdt database on a hyperswarm",
+  "main": "database.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ypear/database"
+  },
+  "scripts": {
+    "link-local": "npm link ../currency ../timing ../crdt ../events" 
+  },
+  "dependencies": {
+    "json-stringify-safe": "^5.0.1",
+    "electron": "^35.1.5",
+    "@ypear/currency": "file:../currency",
+    "@ypear/timing": "file:../timing",
+    "yjs": "^13.6.24",
+    "@ypear/crdt": "file:../crdt",
+    "@ypear/events": "file:../events"
+  },
+  "keywords": [
+    "local-first",
+    "offline-first",
+    "distributed",
+    "p2p",
+    "hypercore",
+    "corestore",
+    "hyperswarm",
+    "database",
+    "autobase"
+  ],
+  "author": "Benz Muircroft",
+  "license": "MIT"
+}
